@@ -1,6 +1,6 @@
 /* 
 DARK THEME by MartynMage
-Version: 6.5
+Version: 7.0
 */
 
 /*Core Colours*/
@@ -37,6 +37,7 @@ a:hover.reply-new {color: #4d59fc;}
 .topic-list.categories a.title {color: #6a7bd9;}
 .topic-list.categories .category .category-description {color: #222;}
 .topic-list td > .badge-wrapper.bullet span.badge-category.clear-badge {color: #222 !important;}
+#suggested-topics h3 .badge-wrapper.bullet span.badge-category {color: #fff !important;}
 
 /*Rounded Corners*/
 .topic-list:not(.categories){background-color: white; border-radius: 6px;}
@@ -103,7 +104,7 @@ a:hover.reply-new {color: #4d59fc;}
 @media (min-width: 740px) {.topic-body {min-width: 760px;}}
 .timeline-container{ margin-left: 890px !important;}
 .topic-avatar{border-top: 0; padding-right: 10px;}
-.topic-body {background-color: #f8f8f8; color: #222;}
+.topic-body {background-color: #f8f8f8 !important; color: #222;}
 
 /*Approval Queue*/
 .queued-posts .queued-post .names span a {color: #222;}
@@ -146,6 +147,7 @@ button#create-topic.btn.btn-default:hover {background: #39C442; color: #f8f8f8;}
 #topic-footer-buttons p {color: #f8f8f8;}
 .btn[disabled], .btn.disabled {color: #000;}
 div.poll .poll-buttons button {background-color: #f0f0f0; color: #222;}
+
 
 
 /*Post Buttons*/
@@ -194,8 +196,12 @@ body label {color: #222;}
 
 /*Badges*/
 .user-badges {background-color: #222;}
-.badge-card.medium{-webkit-box-shadow: 0 2px 5px 0 #000,0 2px 10px 0 #000; -moz-box-shadow: 0 2px 5px 0 #000,0 2px 10px 0 #000; box-shadow: 0 1px 1px 0 #000,0 2px 10px 0 #000; background-color: #f8f8f8; color: #000; margin-top: 5px; border-radius: 6px;}
+.badge-card.medium {-webkit-box-shadow: 0 2px 5px 0 #000,0 2px 10px 0 #000; -moz-box-shadow: 0 2px 5px 0 #000,0 2px 10px 0 #000; box-shadow: 0 1px 1px 0 #000,0 2px 10px 0 #000; background-color: #f8f8f8; color: #000; margin-top: 5px; border-radius: 6px;}
 .badge-card .badge-contents .badge-icon {border-radius: 6px;}
+
+/*Username popup when clicking name*/
+#user-card.no-bg .card-content {-webkit-box-shadow: 0 2px 5px 0 #000,0 2px 10px 0 #000; -moz-box-shadow: 0 2px 5px 0 #000,0 2px 10px 0 #000; box-shadow: 0 1px 1px 0 #000,0 2px 10px 0 #000; background-color: #f8f8f8; color: #000; margin-top: 5px; border-radius: 6px;}
+#user-card.show .card-content {-webkit-box-shadow: 0 2px 5px 0 #000,0 2px 10px 0 #000; -moz-box-shadow: 0 2px 5px 0 #000,0 2px 10px 0 #000; box-shadow: 0 1px 1px 0 #000,0 2px 10px 0 #000; border-radius: 6px;}
 
 /*Button cleanup*/
 .user-main .user-stream .btn {background: #EBEBEB; color: #222}
@@ -219,6 +225,24 @@ body label {color: #222;}
 .user-main .nav-stacked>li>a:hover {color: #222; background-color: #39C442;}
 .body-page .nav-pills > li > a:hover {color: #222; background-color: #39C442;}
 .body-page .nav-pills > li > a {color: #222; background-color: #f8f8f8;}
+.information.toggle-summary button.widget-button.btn.btn-primary {color: #222; background-color: #EBEBEB;}
+.information.toggle-summary button.widget-button.btn.btn:hover {color: #222; background-color: #39C442;}
+#user-card .btn {color: #222; background-color: #EBEBEB;}
+#user-card .btn:hover {color: #222; background-color: #39C442;}
+.user-main .about .secondary .btn {color: #222; background-color: #EBEBEB;}
+.user-main .about .secondary .btn:hover {color: #222; background-color: #39C442;}
+.delete-user-modal .modal-footer a.btn {color: #222; background-color: #EBEBEB;}
+.delete-user-modal .modal-footer a.btn:hover {color: #222; background-color: #39C442;}
+.modal-footer a.btn-primary {background-color: #39C442 !important; color: #222 !important;}
+.popup-menu li.btn {color: #222; background-color: #EBEBEB;}
+.popup-menu li.btn:hover {color: #222; background-color: #39C442;}
+.modal-footer .btn.null {color: #222; background-color: #EBEBEB;}
+.modal-footer .btn.null:hover {color: #222; background-color: #39C442;}
+
+
+.queue-controls .btn {color: #222; background-color: #EBEBEB;}
+.queue-controls {padding-top: 5px;}
+.queue-controls .btn:hover {color: #222; background-color: #39C442;}
 
 
 /*Badge colours*/
