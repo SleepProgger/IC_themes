@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Imgur Community Theme Injector
 // @namespace    IC Change
-// @version      0.7a
+// @version      0.9a
 // @description  Changes theme on Discourse IC
 // @author       MartynMage, SleepProgger
 // @include      http://community.imgur.com/*
